@@ -16,8 +16,19 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <scm>
+	<connection>scm:git:git@github.com:jcessar/rTesting.git</connection>
+	<url>scm:git:git@github.com:jcessar/rTesting.git</url>
+	<developerConnection>scm:git:git@github.com:jcessar/rTesting.git</developerConnection>
+  </scm>
+
   <build>
   	<plugins>
+  		<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-release-plugin</artifactId>
+  			<version>2.3.2</version>
+  		</plugin>
   	</plugins>
   </build>
     
